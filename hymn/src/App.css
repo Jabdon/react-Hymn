@@ -1,7 +1,8 @@
 .form-container {
   border-radius: 5px;
   padding: 20px;
-  width: 90% ;
+  width: 100% ;
+  text-align: center;
   
 }
 
@@ -27,7 +28,7 @@
 
 .signin-Popup{
   background-color: white;
-  width: 25% ;
+  width: 400px ;
   text-align: center;
   padding: 20px ;
   border-radius: 5px;
@@ -41,7 +42,7 @@
 
 ::placeholder {
   color: #8190A5 ;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
 
 .search-Container{
@@ -62,7 +63,7 @@
   height: 40px;
   width: 40px;
   vertical-align: middle;
-  background: url(images/search.svg) no-repeat center center ;
+  /*background: url(images/search.svg) no-repeat center center ;*/
   background-size: 20px 20px;
   background-color: white;
   margin-left: 20px;
@@ -130,7 +131,7 @@ span{
 
 .button-Edit{
   border: 0.5px solid #FFBA5C;
-  background: url(images/pencil.svg) no-repeat center center ;
+  /*background: url(images/pencil.svg) no-repeat center center ;*/
   background-size: 20px 20px;
   background-color: #FFBA5C ;
   border-radius: 10px;
@@ -144,5 +145,5 @@ span{
 }
 
 body{
-  background-color:#E5E9F2 ;
-}
+  background-color:#E5E9F2 ; 
+} 
